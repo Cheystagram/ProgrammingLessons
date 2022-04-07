@@ -1,9 +1,11 @@
 package main
 
-import "fmt"
-import "bufio"
-import "os"
-import "strings"
+import (
+	"bufio"
+	"fmt"
+	"os"
+	"strings"
+)
 
 func main() {
 	reader := bufio.NewReader(os.Stdin)
@@ -21,10 +23,4 @@ func main() {
 	job, _ := reader.ReadString('\n')
 	job = strings.TrimSuffix(job, "\n")
 	fmt.Println("Hello", name, "you are", age, " and you are a", job)
-
-
-
-
-
-
 }
