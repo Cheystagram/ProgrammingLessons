@@ -1,51 +1,44 @@
 package homework3
 
 func subtract(x, y int) int {
-	// TODO: replace this with your implementation
-	return 0
+	return x - y
 }
 
 func multiply(x, y int) int {
-	// TODO: replace this with your implementation
-	return 0
+	return x * y
 }
 
 func divide(x, y int) int {
-	// TODO: replace this with your implementation
-	return 0
+	return x / y
 }
 
 func sum(x, y, z int) int {
-	// TODO: replace this with your implementation
-	return 0
+	return x + y + z
 }
 
 func isEven(x int) bool {
-	// TODO: replace this with your implementation
-	return false
+	return x%2 == 0
 }
 
 func isOdd(x int) bool {
-	// TODO: replace this with your implementation
-	return false
+	return x%2 == 1
 }
 
 func max(x, y int) int {
-	// TODO: replace this with your implementation
-	return 0
+	if x > y {
+		return x
+	}
+	return y
 }
 
 func and(x, y bool) bool {
-	// TODO: replace this with your implementation
-	return false
+	return x && y
 }
 
 func or(x, y bool) bool {
-	// TODO: replace this with your implementation
-	return false
+	return x || y
 }
 
 func not(x bool) bool {
-	// TODO: replace this with your implementation
-	return false
+	return !x
 }
